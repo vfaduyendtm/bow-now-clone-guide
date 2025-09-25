@@ -2,34 +2,44 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 const features = [
   {
-    title: "Lead Scoring & Segmentation",
-    description: "Tự động phân điểm và phân loại khách hàng tiềm năng dựa trên hành vi, demographics và engagement để tối ưu hóa conversion.",
+    title: "Tự động trích xuất khách hàng \"nóng\"",
+    description: "BowNow tự động theo dõi hành vi truy cập và trích xuất những khách hàng có mức độ quan tâm cao.",
     icon: "🎯"
   },
   {
-    title: "Sales Automation", 
-    description: "Tự động hóa quy trình bán hàng từ follow-up đến closing, tăng hiệu quả sales team lên 300%.",
-    icon: "⚡"
+    title: "Hỗ trợ quá trình Sales", 
+    description: "Cung cấp thông tin chi tiết về khách hàng để team sales có thể tiếp cận hiệu quả hơn.",
+    icon: "👥"
   },
   {
-    title: "Multichannel Communication",
-    description: "Kết nối khách hàng qua email, SMS, social media, chatbot với personalized messaging theo từng segment.",
-    icon: "💬"
+    title: "Phân tích thông tin doanh nghiệp",
+    description: "Phân tích sâu về thông tin và nhu cầu của các doanh nghiệp khách hàng tiềm năng.",
+    icon: "📊"
   },
   {
-    title: "Predictive Analytics",
-    description: "Dự đoán xu hướng mua hàng, churn risk và lifetime value với AI-powered analytics để đưa ra quyết định thông minh.",
-    icon: "🔮"
+    title: "Phân tích thông tin khách hàng",
+    description: "Thu thập và phân tích hành vi của từng khách hàng cá nhân để cá nhân hóa trải nghiệm.",
+    icon: "🌐"
   },
   {
-    title: "Báo cáo & Compliance",
-    description: "Tuân thủ GDPR, CCPA và các quy định về dữ liệu cá nhân với báo cáo compliance tự động và audit trail.",
-    icon: "📋"
+    title: "Tạo form",
+    description: "Tạo các form thu thập thông tin khách hàng một cách dễ dàng và tích hợp vào website.",
+    icon: "📝"
   },
   {
-    title: "Real-time Notifications",
-    description: "Thông báo tức thời về hot leads, deal updates và customer activities qua mobile app, email hoặc Slack.",
-    icon: "🔔"
+    title: "Email Marketing",
+    description: "Gửi email marketing tự động để nuôi dưỡng khách hàng tiềm năng và duy trì mối quan hệ.",
+    icon: "📧"
+  },
+  {
+    title: "Lập đồ thị",
+    description: "Tạo báo cáo và biểu đồ trực quan để theo dõi hiệu quả các chiến dịch marketing.",
+    icon: "📈"
+  },
+  {
+    title: "Bảo vệ quyền riêng tư",
+    description: "Tuân thủ các quy định về bảo mật dữ liệu và bảo vệ thông tin khách hàng một cách tốt nhất.",
+    icon: "🛡️"
   }
 ];
 
@@ -42,7 +52,7 @@ const FeaturesSection = () => {
             Tính năng chính
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Giải phương toàn diện cho doanh nghiệp B2B với AI-powered automation và analytics
+            Giới thiệu các tính năng chính của BowNow để giúp doanh nghiệp B2B tăng trưởng hiệu quả
           </p>
         </div>
         

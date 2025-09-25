@@ -7,21 +7,19 @@ const HeroSection = () => {
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
-            <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium">
-              ⚡ #1 CRM và Marketing Automation hàng đầu
+            <div className="inline-flex items-center px-4 py-2 rounded-full bg-red-100 text-red-600 text-sm font-medium">
+              CRM cho doanh nghiệp B2B
             </div>
             
             <div className="space-y-6">
               <h1 className="text-4xl lg:text-6xl font-bold leading-tight text-foreground">
-                Tăng trưởng
-                <span className="text-primary block">doanh số B2B</span>
-                với BOW-NOW
+                Marketing Automation Tool
+                <span className="text-red-600 block">BowNow</span>
               </h1>
               
               <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl">
-                Hệ thống CRM và Marketing Automation all-in-one giúp doanh nghiệp 
-                B2B tự động hóa quy trình bán hàng, nuôi dưỡng khách hàng tiềm năng 
-                và tăng tỷ lệ chuyển đổi lên đến 300%.
+                Giúp doanh nghiệp có được thành quả kinh doanh xuất sắc với CRM đơn giản cùng sự hỗ trợ 1 to 1 của chuyên viên BowNow. 
+                Doanh nghiệp có thể bắt đầu sử dụng BowNow với giá từ 0 đồng mà không gặp bất kỳ khó khăn nào về cài đặt.
               </p>
             </div>
             
@@ -36,16 +34,16 @@ const HeroSection = () => {
             
             <div className="flex items-center space-x-8 pt-8">
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary">10K+</div>
-                <div className="text-sm text-muted-foreground">Doanh nghiệp tin dùng</div>
+                <div className="bg-gradient-to-b from-yellow-400 to-yellow-600 text-white px-4 py-2 rounded-full inline-block">
+                  <div className="text-2xl font-bold">11,000+</div>
+                </div>
+                <div className="text-sm text-muted-foreground mt-2">doanh nghiệp sử dụng</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary">300%</div>
-                <div className="text-sm text-muted-foreground">Tăng trưởng doanh số</div>
-              </div>
-              <div className="text-center">
-                <div className="text-2xl font-bold text-primary">24/7</div>
-                <div className="text-sm text-muted-foreground">Hỗ trợ</div>
+                <div className="bg-gradient-to-b from-yellow-400 to-yellow-600 text-white px-4 py-2 rounded-full inline-block">
+                  <div className="text-2xl font-bold">98.4%</div>
+                </div>
+                <div className="text-sm text-muted-foreground mt-2">Tỷ lệ dùng tiếp</div>
               </div>
             </div>
           </div>

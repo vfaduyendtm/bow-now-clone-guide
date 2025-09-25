@@ -11,35 +11,35 @@ const ContactFormSection = () => {
   const contactMethods = [
     {
       title: "Hotline tư vấn",
-      description: "+84 28 1234 5678",
-      subtitle: "Hỗ trợ 24/7, phản hồi trong 5 phút",
+      description: "096 652 3330",
+      subtitle: "Tổng đài 9:00-12:00 / 13:00-17:00 các ngày trong tuần",
       icon: Phone,
       action: "Gọi ngay",
+      color: "from-red-500/20 to-red-600/20"
+    },
+    {
+      title: "Email tư vấn", 
+      description: "dtm.duyen@cloudcircus.asia",
+      subtitle: "B2B CRM & Marketing Consultant",
+      icon: Mail,
+      action: "Gửi email",
       color: "from-blue-500/20 to-blue-600/20"
     },
     {
-      title: "Email support", 
-      description: "support@bow-now.vn",
-      subtitle: "Phản hồi trong 2 giờ làm việc",
-      icon: Mail,
-      action: "Gửi email",
+      title: "Liên hệ Zalo",
+      description: "0832.048.790",
+      subtitle: "Đoàn Trần Mỹ Duyên (Ms.) - CloudCIRCUS Nhật Bản", 
+      icon: MessageCircle,
+      action: "Chat Zalo",
       color: "from-green-500/20 to-green-600/20"
     },
     {
-      title: "Đặt lịch demo",
-      description: "30 phút consultation",
-      subtitle: "1-on-1 với solution expert", 
-      icon: Clock,
-      action: "Đặt lịch",
+      title: "Liên hệ Telegram",
+      description: "0866.777.808",
+      subtitle: "Tư vấn trực tiếp với chuyên gia",
+      icon: Phone,
+      action: "Chat Telegram",
       color: "from-purple-500/20 to-purple-600/20"
-    },
-    {
-      title: "Live chat",
-      description: "Trực tiếp trên website",
-      subtitle: "Sales team online 8:00-18:00",
-      icon: MessageCircle,
-      action: "Chat ngay",
-      color: "from-orange-500/20 to-orange-600/20"
     }
   ];
 
@@ -188,15 +188,17 @@ const ContactFormSection = () => {
               <CardContent className="p-6 text-center space-y-4">
                 <MapPin className="w-8 h-8 text-primary mx-auto" />
                 <div>
-                  <h3 className="font-semibold text-lg mb-2">Văn phòng Việt Nam</h3>
+                  <h3 className="font-semibold text-lg mb-2">Thông tin liên hệ</h3>
                   <p className="text-muted-foreground">
-                    Tầng 15, Tòa nhà ABC Tower<br/>
-                    123 Nguyễn Huệ, Q1, TP.HCM<br/>
-                    <span className="text-primary font-medium">Thứ 2 - Thứ 6: 8:00 - 18:00</span>
+                    <strong>Đoàn Trần Mỹ Duyên (Ms.)</strong><br/>
+                    B2B CRM & Marketing Consultant<br/>
+                    CloudCIRCUS Nhật Bản<br/>
+                    <span className="text-primary font-medium">📧 dtm.duyen@cloudcircus.asia</span><br/>
+                    <span className="text-primary font-medium">📞 0832.048.790 | 0866.777.808</span>
                   </p>
                 </div>
                 <Button variant="outline" size="sm">
-                  Xem bản đồ
+                  Liên hệ ngay
                 </Button>
               </CardContent>
             </Card>
