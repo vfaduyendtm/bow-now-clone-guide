@@ -1,14 +1,17 @@
+import logoWhiteNew from "@/assets/logo-bownow-white-2.png";
+
 const Footer = () => {
   return (
     <footer className="bg-foreground text-background py-16">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-sm">B</span>
-              </div>
-              <span className="text-xl font-bold">BowNow</span>
+            <div className="flex items-center">
+              <img 
+                src={logoWhiteNew} 
+                alt="BowNow by CloudCIRCUS" 
+                className="h-10"
+              />
             </div>
             <p className="text-background/70 leading-relaxed">
               CRM Marketing Automation hàng đầu cho doanh nghiệp B2B tại Việt Nam.
