@@ -31,7 +31,8 @@ const ContactFormSection = () => {
       subtitle: "Đoàn Trần Mỹ Duyên (Ms.) - CloudCIRCUS Nhật Bản", 
       icon: MessageCircle,
       action: "Chat Zalo",
-      color: "from-green-500/20 to-green-600/20"
+      color: "from-green-500/20 to-green-600/20",
+      link: "https://zalo.me/0832048790"
     },
     {
       title: "Liên hệ Telegram",
@@ -44,10 +45,10 @@ const ContactFormSection = () => {
   ];
 
   const guarantees = [
-    "Setup hoàn thành trong 24 giờ",
     "Training team miễn phí",
     "Data migration không tính phí", 
-    "ROI guarantee trong 6 tháng"
+    "ROI guarantee trong 6 tháng",
+    "Support 24/7 từ team chuyên gia"
   ];
 
   return (
@@ -175,7 +176,12 @@ const ContactFormSection = () => {
                         <p className="text-primary font-medium">{method.description}</p>
                         <p className="text-sm text-muted-foreground">{method.subtitle}</p>
                       </div>
-                      <Button variant="outline" size="sm" className="group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
+                      <Button 
+                        variant="outline" 
+                        size="sm" 
+                        className="group-hover:bg-primary group-hover:text-primary-foreground transition-colors"
+                        onClick={() => method.link && window.open(method.link, '_blank')}
+                      >
                         {method.action}
                       </Button>
                     </div>

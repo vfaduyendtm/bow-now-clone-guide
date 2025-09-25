@@ -5,56 +5,67 @@ import { Check } from "lucide-react";
 
 const plans = [
   {
-    name: "Starter",
-    price: "2,900,000₫",
-    period: "/tháng",
-    description: "Dành cho team nhỏ mới bắt đầu với CRM",
+    name: "BN Essential",
+    price: "$200~5tr",
+    period: "/tháng (HĐ 12 tháng)",
+    description: "Gói cơ bản cho doanh nghiệp vừa và nhỏ",
     features: [
-      "Lên đến 1,000 contacts",
-      "5 users", 
-      "Email automation cơ bản",
-      "Lead scoring",
-      "Mobile app",
-      "Email & chat support",
-      "Basic reporting"
+      "Account không giới hạn",
+      "3,000 leads (+1,000 = $10/tháng)",
+      "Lưu trữ nhật ký 12 tháng",
+      "3 WEB liên kết",
+      "10 Form WEB",
+      "30,000 Page view/tháng",
+      "Gửi email không giới hạn",
+      "Tạo trường tùy chỉnh",
+      "MiniCRM cơ bản",
+      "Liên kết API",
+      "BowNow Companion (Chat + Online 1to1)",
+      "Audit B2B Email Marketing"
     ],
     buttonText: "Bắt đầu dùng thử",
     popular: false
   },
   {
-    name: "Professional", 
-    price: "5,900,000₫",
-    period: "/tháng",
-    description: "Dành cho doanh nghiệp đang phát triển",
+    name: "BN Standard", 
+    price: "$300~7tr5",
+    period: "/tháng (HĐ 12 tháng)",
+    description: "Gói tiêu chuẩn cho doanh nghiệp đang phát triển",
     features: [
-      "Lên đến 10,000 contacts",
-      "15 users",
-      "Advanced email automation", 
-      "Predictive lead scoring",
-      "Sales pipeline management",
-      "Advanced analytics",
-      "API integrations",
-      "Priority support",
-      "Custom workflows"
+      "Account không giới hạn",
+      "5,000 leads (+1,000 = $10/tháng)",
+      "Lưu trữ nhật ký 24 tháng",
+      "WEB liên kết không giới hạn",
+      "Form WEB không giới hạn",
+      "50,000 Page view/tháng",
+      "Gửi email không giới hạn",
+      "Tạo trường tùy chỉnh",
+      "MiniCRM cơ bản",
+      "Liên kết API",
+      "BowNow Companion (Chat + Online 1to1)",
+      "Audit B2B Email Marketing"
     ],
     buttonText: "Nâng cấp ngay",
     popular: true
   },
   {
-    name: "Enterprise",
-    price: "Liên hệ",
-    period: "",
-    description: "Giải pháp toàn diện cho tập đoàn",
+    name: "BN Premium",
+    price: "$500~12tr5",
+    period: "/tháng (HĐ 12 tháng)",
+    description: "Gói cao cấp cho doanh nghiệp lớn",
     features: [
-      "Unlimited contacts",
-      "Unlimited users",
-      "AI-powered insights", 
-      "Custom integrations",
-      "Dedicated account manager",
-      "White-label options",
-      "Advanced security",
-      "SLA guarantee",
-      "Custom training"
+      "Account không giới hạn",
+      "20,000 leads (+1,000 = $5/tháng)",
+      "Lưu trữ nhật ký 24 tháng",
+      "WEB liên kết không giới hạn",
+      "Form WEB không giới hạn",
+      "100,000 Page view/tháng",
+      "Gửi email không giới hạn",
+      "Tạo trường tùy chỉnh",
+      "MiniCRM cơ bản",
+      "Liên kết API",
+      "BowNow Companion (Chat + Online 1to1)",
+      "Audit B2B Email Marketing"
     ],
     buttonText: "Liên hệ tư vấn",
     popular: false
@@ -62,18 +73,19 @@ const plans = [
 ];
 
 const includedFeatures = [
-  "Tích hợp với 100+ tools phổ biến (Salesforce, HubSpot, Slack...)",
+  "Tích hợp với hệ thống CRM khác dễ dày dữ liệu Hot Lead từ BowNow qua (Sync 2 chiều)",
   "GDPR & CCPA compliant, bảo mật cấp ngân hàng", 
   "Onboarding support và training miễn phí",
   "99.9% uptime SLA với infrastructure toàn cầu",
-  "Không giới hạn email sends và automation triggers"
+  "Không giới hạn email sends và automation triggers",
+  "*Khi vượt quá số lượng PV, mỗi 10,000 PV sẽ được tính $10 mỗi tháng"
 ];
 
 const whyChoose = [
-  "Setup nhanh chóng trong 24 giờ",
   "ROI trung bình 300% trong năm đầu", 
   "Support team Việt Nam, hiểu business địa phương",
-  "Không có phí setup hay contract ràng buộc dài hạn"
+  "Không có phí setup hay contract ràng buộc dài hạn",
+  "Triển khai nhanh chóng và hiệu quả"
 ];
 
 const savings = [
