@@ -11,7 +11,7 @@ const ContactFormSection = () => {
   const contactMethods = [
     {
       title: "Hotline tư vấn",
-      description: "096 652 3330",
+      description: "0832 048 790",
       subtitle: "Tổng đài 9:00-12:00 / 13:00-17:00 các ngày trong tuần",
       icon: Phone,
       action: "Gọi ngay",
