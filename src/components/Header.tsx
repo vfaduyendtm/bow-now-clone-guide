@@ -45,7 +45,7 @@ const Header = () => {
             Đăng nhập
           </Button>
           <Button variant="hero" size="sm">
-            Dùng thử
+            Tải tài liệu từ 0 → 1 về Marketing Automation
           </Button>
           <Button variant="outline" size="sm">
             Hội thảo

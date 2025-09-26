@@ -15,9 +15,9 @@ const FinalCTASection = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button variant="secondary" size="lg" className="text-lg px-12 py-6 font-semibold">
-              Dùng thử miễn phí ngay
+              Gửi thông tin cho chúng tôi
             </Button>
-            <Button variant="outline" size="lg" className="text-lg px-12 py-6 border-2 border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground hover:text-primary">
+            <Button variant="outline" size="lg" className="text-lg px-12 py-6 bg-background/10 backdrop-blur-sm border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground hover:text-primary">
               Đặt lịch demo 1-1
             </Button>
           </div>

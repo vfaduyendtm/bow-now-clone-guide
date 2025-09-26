@@ -74,7 +74,6 @@ const plans = [
 
 const includedFeatures = [
   "Tích hợp với hệ thống CRM khác dễ dày dữ liệu Hot Lead từ BowNow qua (Sync 2 chiều)",
-  "GDPR & CCPA compliant, bảo mật cấp ngân hàng", 
   "Onboarding support và training miễn phí",
   "99.9% uptime SLA với infrastructure toàn cầu",
   "Không giới hạn email sends và automation triggers",

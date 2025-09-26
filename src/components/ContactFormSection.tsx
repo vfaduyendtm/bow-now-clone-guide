@@ -34,14 +34,6 @@ const ContactFormSection = () => {
       color: "from-green-500/20 to-green-600/20",
       link: "https://zalo.me/0832048790"
     },
-    {
-      title: "Liên hệ Telegram",
-      description: "0866.777.808",
-      subtitle: "Tư vấn trực tiếp với chuyên gia",
-      icon: Phone,
-      action: "Chat Telegram",
-      color: "from-purple-500/20 to-purple-600/20"
-    }
   ];
 
   const guarantees = [
@@ -194,17 +186,17 @@ const ContactFormSection = () => {
               <CardContent className="p-6 text-center space-y-4">
                 <MapPin className="w-8 h-8 text-primary mx-auto" />
                 <div>
-                  <h3 className="font-semibold text-lg mb-2">Thông tin liên hệ</h3>
-                  <p className="text-muted-foreground">
-                    <strong>Đoàn Trần Mỹ Duyên (Ms.)</strong><br/>
-                    B2B CRM & Marketing Consultant<br/>
-                    CloudCIRCUS Nhật Bản<br/>
-                    <span className="text-primary font-medium">📧 dtm.duyen@cloudcircus.asia</span><br/>
-                    <span className="text-primary font-medium">📞 0832.048.790 | 0866.777.808</span>
+                  <h3 className="font-semibold text-lg mb-2">Địa chỉ doanh nghiệp</h3>
+                  <p className="text-muted-foreground mb-4">
+                    Tìm hiểu vị trí văn phòng và thông tin liên hệ trực tiếp
                   </p>
                 </div>
-                <Button variant="outline" size="sm">
-                  Liên hệ ngay
+                <Button 
+                  variant="outline" 
+                  size="sm"
+                  onClick={() => window.open('https://share.google/qnjjjVF2MBQbLgTZE', '_blank')}
+                >
+                  Xem trên Google Maps
                 </Button>
               </CardContent>
             </Card>

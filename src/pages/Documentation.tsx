@@ -250,7 +250,7 @@ const Documentation = () => {
               <Button variant="secondary" size="lg" className="text-lg px-12 py-6">
                 Chat với chuyên gia
               </Button>
-              <Button variant="outline" size="lg" className="text-lg px-12 py-6 border-2 border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground hover:text-primary">
+              <Button variant="outline" size="lg" className="text-lg px-12 py-6 bg-background/10 backdrop-blur-sm border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground hover:text-primary">
                 Gọi hotline
               </Button>
             </div>

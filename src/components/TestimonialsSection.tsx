@@ -48,12 +48,12 @@ const testimonials = [
     color: "from-red-500/20 to-red-600/20"
   },
   {
-    quote: "Security và compliance đạt chuẩn enterprise. Đặc biệt quan trọng với healthcare data. GDPR compliance tự động, audit trail đầy đủ. Peace of mind khi scale business.",
+    quote: "Automation workflows giải phóng 70% thời gian manual tasks, team có thể focus vào strategic activities và relationship building với khách hàng.",
     name: "Đỗ Minh Châu",
     position: "IT Director",
     company: "HealthCare Plus",
     avatar: "DMC",
-    metric: "GDPR compliant",
+    metric: "70% time saved",
     color: "from-teal-500/20 to-teal-600/20"
   }
 ];
