@@ -22,6 +22,9 @@ const Header = () => {
           </Link>
           
           <nav className="hidden md:flex items-center space-x-6">
+            <Link to="/" className="text-muted-foreground hover:text-foreground transition-colors">
+              Trang chủ
+            </Link>
             <Link to="/about" className="text-muted-foreground hover:text-foreground transition-colors">
               BowNow là gì?
             </Link>
@@ -41,14 +44,10 @@ const Header = () => {
         </div>
         
         <div className="flex items-center space-x-4">
-          <Button variant="ghost" size="sm">
-            Đăng nhập
-          </Button>
-          <Button variant="hero" size="sm">
-            Tải tài liệu từ 0 → 1 về Marketing Automation
-          </Button>
-          <Button variant="outline" size="sm">
-            Hội thảo
+          <Button variant="hero" size="sm" asChild>
+            <a href="https://vn.bow-now.com/resources/easyma/" target="_blank" rel="noopener noreferrer">
+              Tải tài liệu từ 0 → 1 về Marketing Automation
+            </a>
           </Button>
         </div>
       </div>

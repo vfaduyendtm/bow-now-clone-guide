@@ -12,14 +12,6 @@ const CTASection = () => {
             Bắt đầu free trial 14 ngày, setup trong 5 phút. 300+ integration sẵn sàng cho business của bạn.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button size="lg" className="text-lg px-12 py-6 font-semibold">
-              Dùng thử miễn phí ngay
-            </Button>
-            <Button variant="outline" size="lg" className="text-lg px-12 py-6">
-              Đặt lịch demo 1-1
-            </Button>
-          </div>
           
           <div className="pt-8">
             <p className="text-sm text-muted-foreground mb-4">✓ Không cần thẻ tín dụng ✓ Setup trong 5 phút ✓ Hỗ trợ 24/7</p>

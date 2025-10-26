@@ -13,14 +13,6 @@ const FinalCTASection = () => {
             Liên hệ ngay để được cung cấp cơ hội tại bản cơ sở.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button variant="secondary" size="lg" className="text-lg px-12 py-6 font-semibold">
-              Gửi thông tin cho chúng tôi
-            </Button>
-            <Button variant="outline" size="lg" className="text-lg px-12 py-6 bg-background/10 backdrop-blur-sm border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground hover:text-primary">
-              Đặt lịch demo 1-1
-            </Button>
-          </div>
         </div>
       </div>
     </section>

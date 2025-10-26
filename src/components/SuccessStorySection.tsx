@@ -49,11 +49,6 @@ const SuccessStorySection = () => {
           </Card>
         </div>
         
-        <div className="text-center">
-          <Button size="lg" variant="outline" className="px-8">
-            Đọc case study đầy đủ
-          </Button>
-        </div>
       </div>
     </section>
   );

@@ -23,14 +23,6 @@ const HeroSection = () => {
               </p>
             </div>
             
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="text-lg px-8 py-6">
-                Dùng thử miễn phí ngay
-              </Button>
-              <Button variant="outline" size="lg" className="text-lg px-8 py-6">
-                Xem Demo
-              </Button>
-            </div>
             
             <div className="flex items-center space-x-8 pt-8">
               <div className="text-center">
